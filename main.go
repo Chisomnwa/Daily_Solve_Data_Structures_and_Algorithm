@@ -11,30 +11,8 @@ func main() {
 	// fmt.Println(gosolutions.IsPalindrome("race a car"))
 	// fmt.Println(gosolutions.RomanToInt("IV"))
 	// fmt.Println(gosolutions.DefangIPaddr("1.1.1.1"))
-	// fmt.Println(gosolutions.IsPalindromeII("aba"))
-	// fmt.Println(gosolutions.IsPalindromeII("abca"))
-	// fmt.Println(gosolutions.IsPalindromeII("abc"))
-	// fmt.Println(gosolutions.Interpret("G()(al)"))
-	// fmt.Println(gosolutions.Interpret("G()()()()(al)"))
-	// fmt.Println(gosolutions.Interpret("(al)G(al)()()G"))
-
-	fmt.Println(gosolutions.CountMatches(
-    [][]string{
-        {"phone","blue","pixel"},
-        {"computer","silver","lenovo"},
-        {"phone","gold","iphone"},
-    },
-    "color",
-    "silver",
-))
-
-	fmt.Println(gosolutions.CountMatches(
-		[][]string{
-			{"phone","blue","pixel"},
-			{"computer","silver","phone"},
-			{"phone","gold","iphone"},
-		},
-		"type",
-		"phone",
-	))
+	fmt.Println(gosolutions.IsPalindromeII("aba"))
+	fmt.Println(gosolutions.IsPalindromeII("abca"))
+	fmt.Println(gosolutions.IsPalindromeII("abc"))
 }
+
